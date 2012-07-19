@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+	<id>distribution</id>
+	<formats>
+		<!-- tar.gz should be prefered to zip because it handles files permissions -->
+		<format>zip</format>
+		<format>dir</format>
+	</formats>
+	<dependencySets>
+		<dependencySet>
+			<includes>
+				<include>
+					org.ow2.play:play-serviceregistry-war
+				</include>
+			</includes>
+			<outputFileNameMapping>registry.war</outputFileNameMapping>
+			<outputDirectory>/wars</outputDirectory>
+		</dependencySet>
+		<dependencySet>
+			<includes>
+				<include>
+					org.ow2.play:play-metadata-mongodb-war
+				</include>
+			</includes>
+			<outputFileNameMapping>metadata.war</outputFileNameMapping>
+			<outputDirectory>/wars</outputDirectory>
+		</dependencySet>
+		<dependencySet>
+			<includes>
+				<include>
+					org.ow2.play:play-platformservices-pubsubbootstrap
+				</include>
+			</includes>
+			<outputFileNameMapping>pubsubbootstrap.war</outputFileNameMapping>
+			<outputDirectory>/wars</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+</assembly>
