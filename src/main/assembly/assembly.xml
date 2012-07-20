@@ -10,7 +10,7 @@
 		<dependencySet>
 			<includes>
 				<include>
-					org.ow2.play:play-serviceregistry-war
+					org.ow2.play:play-serviceregistry-mongo-war
 				</include>
 			</includes>
 			<outputFileNameMapping>registry.war</outputFileNameMapping>
