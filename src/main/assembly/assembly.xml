@@ -34,5 +34,14 @@
 			<outputFileNameMapping>pubsubbootstrap.war</outputFileNameMapping>
 			<outputDirectory>/wars</outputDirectory>
 		</dependencySet>
+		<dependencySet>
+			<includes>
+				<include>
+					org.ow2.play:governance-war
+				</include>
+			</includes>
+			<outputFileNameMapping>governance.war</outputFileNameMapping>
+			<outputDirectory>/wars</outputDirectory>
+		</dependencySet>
 	</dependencySets>
 </assembly>
