@@ -40,10 +40,10 @@
 			<version>1.0-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>org.ow2.play</groupId>
-			<artifactId>governance-war</artifactId>
+			<artifactId>governance-mongodb-war</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>

@@ -37,7 +37,7 @@
 		<dependencySet>
 			<includes>
 				<include>
-					org.ow2.play:governance-war
+					org.ow2.play:governance-mongodb-war
 				</include>
 			</includes>
 			<outputFileNameMapping>governance.war</outputFileNameMapping>
