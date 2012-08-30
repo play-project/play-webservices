@@ -28,7 +28,7 @@
 		<dependencySet>
 			<includes>
 				<include>
-					org.ow2.play:play-platformservices-pubsubbootstrap
+					org.ow2.play:overnance-pubsubbootstrap
 				</include>
 			</includes>
 			<outputFileNameMapping>pubsubbootstrap.war</outputFileNameMapping>
