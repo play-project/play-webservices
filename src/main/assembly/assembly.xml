@@ -52,5 +52,14 @@
 			<outputFileNameMapping>api.war</outputFileNameMapping>
 			<outputDirectory>/wars</outputDirectory>
 		</dependencySet>
+		<dependencySet>
+			<includes>
+				<include>
+					org.ow2.play:play-platform-apiwar
+				</include>
+			</includes>
+			<outputFileNameMapping>play.war</outputFileNameMapping>
+			<outputDirectory>/wars</outputDirectory>
+		</dependencySet>
 	</dependencySets>
 </assembly>
