@@ -10,7 +10,7 @@
 		<dependencySet>
 			<includes>
 				<include>
-					org.ow2.play:play-serviceregistry-mongo-war
+					org.ow2.play:governance-serviceregistry-mongo-war
 				</include>
 			</includes>
 			<outputFileNameMapping>registry.war</outputFileNameMapping>
@@ -19,7 +19,7 @@
 		<dependencySet>
 			<includes>
 				<include>
-					org.ow2.play:play-metadata-mongodb-war
+					org.ow2.play:governance-metadata-mongodb-war
 				</include>
 			</includes>
 			<outputFileNameMapping>metadata.war</outputFileNameMapping>
