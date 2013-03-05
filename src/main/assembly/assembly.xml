@@ -19,7 +19,7 @@
 		<dependencySet>
 			<includes>
 				<include>
-					org.ow2.play:governance-metadata-mongodb-war
+					org.ow2.play:governance-metadata-war
 				</include>
 			</includes>
 			<outputFileNameMapping>metadata.war</outputFileNameMapping>

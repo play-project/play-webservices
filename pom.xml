@@ -29,7 +29,7 @@
 
 		<dependency>
 			<groupId>org.ow2.play</groupId>
-			<artifactId>governance-metadata-mongodb-war</artifactId>
+			<artifactId>governance-metadata-war</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
