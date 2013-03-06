@@ -10,19 +10,10 @@
 		<dependencySet>
 			<includes>
 				<include>
-					org.ow2.play:governance-serviceregistry-mongo-war
+					org.ow2.play:governance-war
 				</include>
 			</includes>
-			<outputFileNameMapping>registry.war</outputFileNameMapping>
-			<outputDirectory>/wars</outputDirectory>
-		</dependencySet>
-		<dependencySet>
-			<includes>
-				<include>
-					org.ow2.play:governance-metadata-war
-				</include>
-			</includes>
-			<outputFileNameMapping>metadata.war</outputFileNameMapping>
+			<outputFileNameMapping>governance.war</outputFileNameMapping>
 			<outputDirectory>/wars</outputDirectory>
 		</dependencySet>
 		<dependencySet>
@@ -32,24 +23,6 @@
 				</include>
 			</includes>
 			<outputFileNameMapping>pubsubbootstrap.war</outputFileNameMapping>
-			<outputDirectory>/wars</outputDirectory>
-		</dependencySet>
-		<dependencySet>
-			<includes>
-				<include>
-					org.ow2.play:governance-mongodb-war
-				</include>
-			</includes>
-			<outputFileNameMapping>governance.war</outputFileNameMapping>
-			<outputDirectory>/wars</outputDirectory>
-		</dependencySet>
-		<dependencySet>
-			<includes>
-				<include>
-					org.ow2.play:play-rest-pubsubproxy
-				</include>
-			</includes>
-			<outputFileNameMapping>api.war</outputFileNameMapping>
 			<outputDirectory>/wars</outputDirectory>
 		</dependencySet>
 		<dependencySet>
